@@ -2,7 +2,6 @@
 //Ordenação: Ordenar um array usando o método Quicksort
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class QuickSort {

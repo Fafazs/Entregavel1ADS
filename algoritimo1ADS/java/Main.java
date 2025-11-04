@@ -34,10 +34,10 @@ public class Main {
         //Questão 4
         Mdc md = new Mdc();
         int a = 56, b = 98;
-        System.out.println("MDC de " + a + " e " + b + " é: " + md.mdc(a, b));
+        System.out.println("MDC de " + a + " e " + b + " é: " + md.calcular(a, b));
 
         //Questão 5
-        QuickSort qs = new QuickSort;
+        QuickSort qs = new QuickSort();
         int[] arr = {10, 5, 3, 8, 2, 9};
         int[] sortedArr = qs.quickSort(arr);
         System.out.println("Array ordenado: " + Arrays.toString(sortedArr));
